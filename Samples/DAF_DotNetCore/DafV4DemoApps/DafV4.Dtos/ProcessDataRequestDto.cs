@@ -1,0 +1,40 @@
+﻿using System.Collections.Generic;
+
+namespace DafV4.Dtos
+{
+    public class ProcessDataRequestDto
+    {
+
+        public List<KeyValuePair<string, string>> AdditionalProcessDataRequestData { get; set; }
+        public string CustomerCode { get; set; }
+        public string Password { get; set; }
+        public string Username { get; set; }
+        public string CustomerTransactionID { get; set; }
+        public List<KeyValuePair<string, string>> AdditionalRequestData { get; set; }
+        public string ProcessDataInput_CustomerCode { get; set; }
+        public string ProcessDataInput_Password { get; set; }
+        public string ProcessDataInput__Username { get; set; }
+        public string BillingLabel { get; set; }
+        public string ProcessDataInput_CustomerTransactionID { get; set; }
+        public string OutputPanLast4Format { get; set; }
+        public string Data { get; set; }
+        public string DataFormatType { get; set; }
+        public string EncryptionType { get; set; }
+        public string KSN { get; set; }
+        public int NumberOfPaddedBytes { get; set; }
+        public string IsEncrypted { get; set; }
+        public List<KeyValuePair<string, string>> AdditionalPayloadInfoData { get; set; }
+        public string Base64ClientCert { get; set; }
+        public string ClientCertPassword { get; set; }
+        public List<KeyValuePair<string, string>> AdditionalHTTPInfoData { get; set; }
+        public List<KeyValuePair<string, string>> Headers { get; set; }
+        public string NetworkProtocolType { get; set; }
+        public string Payload { get; set; }
+        public string AccessEngineHeaderHex { get; set; }
+        public List<KeyValuePair<string, string>> AdditionalTCPIPInfoData { get; set; }
+        public int NumberOfBytesToAddForLength { get; set; }
+        public int Port { get; set; }
+        public string Uri { get; set; }
+
+    }
+}
